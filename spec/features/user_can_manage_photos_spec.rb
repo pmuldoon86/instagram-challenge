@@ -12,7 +12,6 @@ RSpec.feature "Photos", type: :feature do
   scenario "user edits a photo", type: :feature do
     sign_up
     add_photo
-    visit '/photos/1'
     click_button 'Edit'
     fill_in 'Title', with: 'Edited title'
     click_button "Add Photo"
@@ -22,8 +21,6 @@ RSpec.feature "Photos", type: :feature do
   scenario "user deletes a photo", type: :feature do
     sign_up
     add_photo
-    visit '/photos/1'
-    click_button 'Edit'
     click_button 'Delete Photo'
     expect(page).not_to have_content('Instagram Logo')
   end
