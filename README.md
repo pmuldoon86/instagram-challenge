@@ -16,7 +16,7 @@ bundle install
 bin/rails db:create
 bin/rails db:migrate
 ```
-#### To run the tests
+#### To run the tests
 ```bash
 bundle exec rspec
 ```
