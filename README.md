@@ -16,6 +16,7 @@ bundle install
 bin/rails db:create
 bin/rails db:migrate
 ```
+Or view on Heroku [here](http://instagram-muldoon.herokuapp.com/)
 #### To run the tests
 ```bash
 bundle exec rspec
@@ -32,7 +33,7 @@ Then start the server at localhost:3000
 * TDD
 
 ---
-## Technologies used
+## Technologies used
 
 * [Ruby 2.4.0](https://www.ruby-lang.org/en/) as the main back-end language
 * [Rails 5.1.1](http://rubyonrails.org/) for the framework
@@ -40,5 +41,5 @@ Then start the server at localhost:3000
 * Vanilla CSS and Chrome DevTools to inspect the real Instagram's styling
 * Git for version managing
 
-## Images
+## Images
 Images currently stored in the repo owing to verification issues with Amazon Web Services and simply not enough time to move them elsewhere.
